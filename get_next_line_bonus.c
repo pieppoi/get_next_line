@@ -6,12 +6,11 @@
 /*   By: mkazuhik <mkazuhik@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 16:28:54 by mkazuhik          #+#    #+#             */
-/*   Updated: 2025/11/25 05:57:12 by mkazuhik         ###   ########.fr       */
+/*   Updated: 2025/11/26 08:17:52 by mkazuhik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
-#include <limits.h>
 
 static t_list	*get_remove_node(t_list **lst, int fd, int is_rm)
 {
